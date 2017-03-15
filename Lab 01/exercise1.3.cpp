@@ -15,12 +15,6 @@ struct employ{
 employ a[1000];
 int n;
 
-int convert2int(string s){
-	int ans = 0;
-	for(int i = 0; i < s.length(); i++)
-		ans = ans*10 + (int)(s[i] - '0');
-	return ans;
-} 
 
 bool _less(int i, int x, string y){
 	if (a[i].b_year < x) return true;
